@@ -13,4 +13,4 @@ RUN cd /var/www/html/ && tar xzf tween.tgz
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 VOLUME /var/log/apache2
 WORKDIR /var/www/html/
-EXPOSE 80
+EXPOSE 80
